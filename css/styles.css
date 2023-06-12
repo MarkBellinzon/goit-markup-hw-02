@@ -1,0 +1,34 @@
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+.studio {
+  color: #2e2f42;
+  font-weight: 500;
+  font-size: 116px;
+  line-height: 124px;
+  text-decoration: none;
+}
+
+.studio:hover {
+  color: #404bbf;
+}
+.studio:focus {
+  color: red;
+}
+.portfolio {
+  color: #2e2f42;
+}
+.portfolio:hover {
+  color: #404bbf;
+}
+) .order-service {
+  color: #ffffff;
+  background-color: #4d5ae5;
+  width: 169px;
+  height: 56px;
+}
+.order-service:hover {
+  background-color: #404bbf;
+  cursor: pointer;
+}
