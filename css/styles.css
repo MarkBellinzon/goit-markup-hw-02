@@ -1,34 +1,372 @@
+
+/**
+  |============================
+  | Common styles
+  |============================
+*/
+
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  color: #4d5ae5;
+  }
+
+/**
+  |============================
+  | Header style
+  |============================
+*/
+
+.header-logo {
+  color: #2e2f42;
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 21px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
 }
 
-.studio {
-  color: #2e2f42;
+.change {
+  color: #4d5ae5;
+}
+
+.header-studio {
   font-weight: 500;
-  font-size: 116px;
-  line-height: 124px;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
   text-decoration: none;
 }
 
-.studio:hover {
+.header-studio:hover,
+.header-studio:focus {
   color: #404bbf;
 }
-.studio:focus {
-  color: red;
-}
-.portfolio {
+
+.header-portfolio {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
   color: #2e2f42;
+  text-decoration: none;
 }
-.portfolio:hover {
+
+.header-portfolio:hover,
+.header-portfolio:focus {
   color: #404bbf;
 }
-) .order-service {
+
+.header-contacts {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+  text-decoration: none;
+}
+
+.header-contacts:hover,
+.header-contacts:focus {
+  color: #404bbf;
+}
+
+.header-mail {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  color: #434455;
+  text-decoration: none;
+}
+
+.header-mail:hover,
+.header-mail:focus {
+  color: #404bbf;
+}
+
+.header-phone {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  color: #434455;
+  text-decoration: none;
+}
+
+/**
+  |============================
+  | Main styles
+  |============================
+*/
+
+.hero-font {
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 60px;
+  text-align: center;
+  letter-spacing: 0.02em;
+}
+.hero-button {
   color: #ffffff;
   background-color: #4d5ae5;
-  width: 169px;
-  height: 56px;
-}
-.order-service:hover {
-  background-color: #404bbf;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.04em;
   cursor: pointer;
+}
+.hero-button:hover {
+  background-color: #404bbf;
+}
+
+.hero-background {
+  background-color: #2e2f42;
+}
+
+.section1-tittle {
+  color: #2e2f42;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+}
+.section1-text {
+  color: #434455;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+}
+
+.section2-tittle {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 40px;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: #2e2f42;
+  text-decoration: none;
+}
+
+.section3-tittle {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 40px;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: #2e2f42;
+  text-decoration: none;
+}
+
+.mark-team {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+
+.mark-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+
+.tom-team {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+
+.tom-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+
+.camila-team {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+.camila-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+
+.dan-team {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+
+.dan-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+
+/**
+  |============================
+  | Footer styles
+  |============================
+*/
+
+.footer-logo {
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 21px;
+  align-items: center;
+  letter-spacing: 0.03em;
+  color: #f4f4fd;
+  text-transform: none;
+}
+
+.footer-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  color: #f4f4fd;
+}
+
+.footer-background {
+  background-color: #2e2f42;
+}
+
+/**
+  |============================
+  | Portfolio-styles
+  |============================
+*/
+.section1-all {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  display: flex;
+  letter-spacing: 0.04em;
+  color: #4d5ae5;
+  cursor: pointer;
+}
+
+.section1-all:hover,
+.section1-all:focus {
+  color: #ffffff;
+  background-color: #404bbf;
+}
+
+.section1-website {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  display: flex;
+  letter-spacing: 0.04em;
+  color: #4d5ae5;
+  cursor: pointer;
+}
+
+.section1-website:hover,
+.section1-website:focus {
+  color: #ffffff;
+  background-color: #404bbf;
+}
+
+.section1-app {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  display: flex;
+  letter-spacing: 0.04em;
+  color: #4d5ae5;
+  cursor: pointer;
+}
+
+.section1-app:hover,
+.section1-app:focus {
+  color: #ffffff;
+  background-color: #404bbf;
+}
+
+.section1-design {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  display: flex;
+  letter-spacing: 0.04em;
+  color: #4d5ae5;
+  cursor: pointer;
+}
+
+.section1-design:hover,
+.section1-design:focus {
+  color: #ffffff;
+  background-color: #404bbf;
+}
+
+.section1-marketing {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  display: flex;
+  letter-spacing: 0.04em;
+  color: #4d5ae5;
+  cursor: pointer;
+}
+
+.section1-marketing:hover,
+.section1-marketing:focus {
+  color: #ffffff;
+  background-color: #404bbf;
+}
+
+.section2-maintext {
+  color: #2e2f42;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+}
+
+.section2-text {
+  color: #434455;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  text-decoration: none;
+}
+
+.footer-logo {
+  text-decoration: none;
+}
+
+.header-logo {
+  text-decoration: none;
 }
