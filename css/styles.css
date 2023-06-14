@@ -148,14 +148,14 @@ body {
   list-style: none;
 }
 
-.section1-tittle {
+.section1-list {
   color: #2e2f42;
   font-weight: 500;
   font-size: 20px;
   line-height: 24px;
   letter-spacing: 0.02em;
 }
-.section1-text {
+.text1-list {
   color: #434455;
   font-weight: 400;
   font-size: 16px;
@@ -186,7 +186,7 @@ body {
   text-decoration: none;
 }
 
-.mark-team {
+.name-list {
   font-weight: 500;
   font-size: 20px;
   line-height: 24px;
@@ -194,7 +194,7 @@ body {
   color: #2e2f42;
 }
 
-.mark-text {
+.posission-list {
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
@@ -202,51 +202,12 @@ body {
   color: #434455;
 }
 
-.tom-team {
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 24px;
-  letter-spacing: 0.02em;
-  color: #2e2f42;
+.backteam {
+  background-color: #f4f4fd;
 }
 
-.tom-text {
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 24px;
-  letter-spacing: 0.02em;
-  color: #434455;
-}
-
-.camila-team {
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 24px;
-  letter-spacing: 0.02em;
-  color: #2e2f42;
-}
-.camila-text {
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 24px;
-  letter-spacing: 0.02em;
-  color: #434455;
-}
-
-.dan-team {
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 24px;
-  letter-spacing: 0.02em;
-  color: #2e2f42;
-}
-
-.dan-text {
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 24px;
-  letter-spacing: 0.02em;
-  color: #434455;
+.backteam-list {
+  background-color: #ffffff;
 }
 
 /**
@@ -287,7 +248,7 @@ body {
   | Portfolio-styles
   |============================
 */
-.section1-all {
+.all-list {
   font-family: 'Roboto', sans-serif;
   font-weight: 500;
   font-size: 16px;
@@ -299,13 +260,13 @@ body {
   cursor: pointer;
 }
 
-.section1-all:hover,
-.section1-all:focus {
+.all-list:hover,
+.all-list:focus {
   color: #ffffff;
   background-color: #404bbf;
 }
 
-.section1-website {
+.website-list {
   font-family: 'Roboto', sans-serif;
   font-weight: 500;
   font-size: 16px;
@@ -317,13 +278,13 @@ body {
   cursor: pointer;
 }
 
-.section1-website:hover,
-.section1-website:focus {
+.website-list:hover,
+.website-list:focus {
   color: #ffffff;
   background-color: #404bbf;
 }
 
-.section1-app {
+.app-list {
   font-family: 'Roboto', sans-serif;
   font-weight: 500;
   font-size: 16px;
@@ -335,13 +296,13 @@ body {
   cursor: pointer;
 }
 
-.section1-app:hover,
-.section1-app:focus {
+.app-list:hover,
+.app-list:focus {
   color: #ffffff;
   background-color: #404bbf;
 }
 
-.section1-design {
+.design-list {
   font-family: 'Roboto', sans-serif;
   font-weight: 500;
   font-size: 16px;
@@ -353,13 +314,13 @@ body {
   cursor: pointer;
 }
 
-.section1-design:hover,
-.section1-design:focus {
+.design-list:hover,
+.design-list:focus {
   color: #ffffff;
   background-color: #404bbf;
 }
 
-.section1-marketing {
+.marketing-list {
   font-family: 'Roboto', sans-serif;
   font-weight: 500;
   font-size: 16px;
@@ -371,8 +332,8 @@ body {
   cursor: pointer;
 }
 
-.section1-marketing:hover,
-.section1-marketing:focus {
+.marketing-list:hover,
+.marketing-list:focus {
   color: #ffffff;
   background-color: #404bbf;
 }
