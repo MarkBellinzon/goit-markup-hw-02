@@ -57,35 +57,7 @@ body {
   color: #404bbf;
 }
 
-.header-portfolio {
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 24px;
-  letter-spacing: 0.02em;
-  color: #2e2f42;
-  text-decoration: none;
-}
-
-.header-portfolio:hover,
-.header-portfolio:focus {
-  color: #404bbf;
-}
-
-.header-contacts {
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 24px;
-  letter-spacing: 0.02em;
-  color: #2e2f42;
-  text-decoration: none;
-}
-
-.header-contacts:hover,
-.header-contacts:focus {
-  color: #404bbf;
-}
-
-.header-mail {
+.address-link {
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -96,19 +68,13 @@ body {
   list-style: none;
 }
 
-.header-mail:hover,
-.header-mail:focus {
+.address-link:hover,
+.address-link:focus {
   color: #404bbf;
 }
 
-.header-phone {
+.address {
   font-style: normal;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: #434455;
-  text-decoration: none;
-  list-style: none;
 }
 
 /**
