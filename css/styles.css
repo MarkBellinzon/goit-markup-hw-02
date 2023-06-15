@@ -39,7 +39,7 @@ body {
   font-size: 18px;
   line-height: 1.17;
   display: flex;
-  align-items: center;
+
   letter-spacing: 0.03em;
   text-transform: uppercase;
   text-decoration: none;
@@ -108,11 +108,12 @@ body {
   font-size: 16px;
   line-height: 24px;
   display: flex;
-  align-items: center;
+
   letter-spacing: 0.04em;
   cursor: pointer;
 }
-.hero-button:hover .hero-button:focus {
+.hero-button:hover,
+.hero-button:focus {
   background-color: #404bbf;
 }
 
@@ -186,7 +187,7 @@ body {
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
-  align-items: center;
+
   letter-spacing: 0.03em;
   color: #4d5ae5;
   text-transform: uppercase;
