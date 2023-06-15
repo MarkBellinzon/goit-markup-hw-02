@@ -225,6 +225,7 @@ body {
   letter-spacing: 0.03em;
   color: #4d5ae5;
   text-transform: uppercase;
+  text-decoration: none;
 }
 
 .footer-text {
@@ -359,10 +360,14 @@ body {
   list-style: none;
 }
 
-.footer-logo {
-  text-decoration: none;
+.port-back {
+  background-color: #e7e9fc;
 }
 
-.header-logo {
+.port-backphoto {
+  background-color: #ffffff;
+}
+
+.link {
   text-decoration: none;
 }
