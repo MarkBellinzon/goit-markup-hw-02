@@ -31,7 +31,7 @@ body {
 */
 
 .header-logo {
-  color: var(--hero-background-color);
+  color: var(--primary-brand-color);
   font-family: Raleway, sans-serif;
   font-weight: 800;
   font-size: 18px;
@@ -41,10 +41,7 @@ body {
   text-decoration: none;
 }
 
-.footer-studio {
-  color: var(--brand-color);
-}
-.stud {
+.header-studio {
   color: var(--hero-background-color);
 }
 
@@ -174,7 +171,7 @@ body {
 */
 
 .footer-logo {
-  color: var(--light-cloud-color);
+  color: var(--primary-brand-color);
   font-family: Raleway, sans-serif;
   font-weight: 800;
   font-size: 18px;
@@ -196,10 +193,6 @@ body {
 }
 
 .footer-studio {
-  color: var(--light-cloud-color);
-  color: var(--primary-brand-color);
-}
-.study {
   color: var(--light-cloud-color);
 }
 
