@@ -129,7 +129,7 @@ body {
 .textt-list {
   color: var(--branded-color);
   font-size: 16px;
-  line-height: 1.5x;
+  line-height: 1.5;
   letter-spacing: 0.02em;
   text-decoration: none;
 }
