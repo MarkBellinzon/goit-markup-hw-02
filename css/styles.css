@@ -44,6 +44,9 @@ body {
 .footer-studio {
   color: var(--brand-color);
 }
+.stud {
+  color: var(--hero-background-color);
+}
 
 .list {
   list-style: none;
@@ -195,6 +198,9 @@ body {
 .footer-studio {
   color: var(--light-cloud-color);
   color: var(--primary-brand-color);
+}
+.study {
+  color: var(--light-cloud-color);
 }
 
 /**
